@@ -1,0 +1,91 @@
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+        /* margin-right: 100%; */
+    }
+    #facebook{
+        margin-left: 1em;
+    }
+    i{
+        margin-left: 5em;
+        margin-top: 10px;
+        color: red;
+        font-weight:bold;
+        cursor: pointer;
+    }
+    .container i:hover{
+        font-weight:bolder;
+        font-size:40px;
+    }
+    b{
+        color:darkred;
+        font-weight:bold;
+        font-size:15px;
+    }
+    .email{
+        font-size:20px;
+        color:orangered
+    }
+.details{
+    text-align:center;
+    word-spacing: normal;
+}
+.mail{
+    color:blue;
+    text-transform: capitalize;
+    font-weight:bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mail:hover{
+    color:darkred;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}
+label{
+    color:blue
+}
+.comment::after{
+    content: "*";
+    color: red;
+    font-size:22px;
+    font-weight: bolder;
+}
+form{
+    /* background-image:linear-gradient( #141e30, #243b55); */
+    /* background-image:linear-gradient( #134e5e, #71b280); */
+    /* background-image:linear-gradient( #89216b, #ce546d); */
+    background-color:whitesmoke;
+    position:absolute;
+    top:0;
+    z-index:-1;
+    margin-top: 9%;
+    padding: 20px;
+}
+textarea{
+    font-weight:bolder;
+        font-size:25px;
+        border-radius:20px;
+        padding:10px 0 0 20px;
+}
+#submit{
+    font-size:20px;
+    font-weight: bolder;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+#submit:hover{
+        color: whitesmoke;
+        background-color:#333;
+        font-size:25px;
+        box-shadow:-1px -1px 0px black;
+}
+.text{
+        font-size:20px;
+        font-weight: bolder;
+        text-transform: capitalize;
+        z-index:inherit;
+        color: darkgreen;
+}
